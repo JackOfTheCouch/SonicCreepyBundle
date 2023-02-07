@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="hitStatic.png">
+<SubTexture name="staticANIMATION0000" x="0" y="0" width="641" height="360" frameX="-1" frameY="0" frameWidth="642" frameHeight="360" />
+<SubTexture name="staticANIMATION0001" x="641" y="0" width="641" height="360" frameX="-1" frameY="0" frameWidth="642" frameHeight="360" />
+<SubTexture name="staticANIMATION0002" x="0" y="360" width="642" height="360" frameX="-1" frameY="0" frameWidth="642" frameHeight="360" />
+<SubTexture name="staticANIMATION0003" x="0" y="720" width="641" height="360" frameX="-1" frameY="0" frameWidth="642" frameHeight="360" />
+<SubTexture name="staticANIMATION0004" x="641" y="720" width="641" height="360" frameX="-1" frameY="0" frameWidth="642" frameHeight="360" />
+<SubTexture name="staticANIMATION0005" x="1282" y="0" width="642" height="360" frameX="-1" frameY="0" frameWidth="642" frameHeight="360" />
+<SubTexture name="staticANIMATION0006" x="1282" y="360" width="641" height="360" frameX="-1" frameY="0" frameWidth="642" frameHeight="360" />
+<SubTexture name="staticANIMATION0007" x="1282" y="720" width="641" height="360" frameX="-1" frameY="0" frameWidth="642" frameHeight="360" />
+<SubTexture name="staticANIMATION0008" x="0" y="360" width="642" height="360" frameX="-1" frameY="0" frameWidth="642" frameHeight="360" />
+<SubTexture name="staticANIMATION0009" x="1923" y="360" width="1" height="1" frameX="0" frameY="0" frameWidth="1" frameHeight="1" />
+</TextureAtlas>

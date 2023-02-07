@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="HillsandHills.png">
+	<SubTexture name="bg0000" x="0" y="0" width="2079" height="996"/>
+	<SubTexture name="bg0001" x="0" y="996" width="2079" height="996"/>
+	<SubTexture name="bg0002" x="0" y="1992" width="2079" height="996"/>
+	<SubTexture name="bg0003" x="0" y="996" width="2079" height="996"/>
+	<SubTexture name="bg0004" x="0" y="0" width="2079" height="996"/>
+	<SubTexture name="bg0005" x="0" y="996" width="2079" height="996"/>
+	<SubTexture name="bg0006" x="0" y="1992" width="2079" height="996"/>
+	<SubTexture name="bg0007" x="0" y="996" width="2079" height="996"/>
+</TextureAtlas>

@@ -1,0 +1,3 @@
+Makes a custom cam zoom every X OFFbeats
+value 1: Number of beats between each zoom
+value 2: Zoom Multiplier

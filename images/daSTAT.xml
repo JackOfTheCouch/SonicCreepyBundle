@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="daSTAT.png">
+<SubTexture name="staticFLASH0000" x="0" y="0" width="402" height="299" frameX="0" frameY="0" frameWidth="402" frameHeight="299" />
+<SubTexture name="staticFLASH0001" x="402" y="0" width="402" height="299" frameX="0" frameY="0" frameWidth="402" frameHeight="299" />
+<SubTexture name="staticFLASH0002" x="0" y="299" width="402" height="299" frameX="0" frameY="0" frameWidth="402" frameHeight="299" />
+<SubTexture name="staticFLASH0003" x="402" y="299" width="402" height="299" frameX="0" frameY="0" frameWidth="402" frameHeight="299" />
+</TextureAtlas>

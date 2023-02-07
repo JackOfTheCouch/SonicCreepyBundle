@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="menu_donate.png">
+<SubTexture name="donate basic0000" x="0" y="0" width="349" height="77" frameX="-846" frameY="0" frameWidth="1198" frameHeight="78" />
+<SubTexture name="donate white0001" x="0" y="77" width="349" height="77" frameX="-846" frameY="0" frameWidth="1198" frameHeight="78" />
+</TextureAtlas>

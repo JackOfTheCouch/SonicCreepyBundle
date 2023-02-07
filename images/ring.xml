@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="crosshair.png">
+<SubTexture name="green0000" x="0" y="0" width="808" height="187" frameX="-5" frameY="-9" frameWidth="827" frameHeight="269" />
+<SubTexture name="purple0000" x="0" y="0" width="808" height="187" frameX="0" frameY="0" frameWidth="827" frameHeight="269" />
+<SubTexture name="blue0000" x="0" y="0" width="808" height="187" frameX="0" frameY="0" frameWidth="827" frameHeight="269" />
+<SubTexture name="red0000" x="0" y="0" width="808" height="187" frameX="0" frameY="0" frameWidth="827" frameHeight="269" />
+</TextureAtlas>
