@@ -1,0 +1,4 @@
+Makes the camera flash
+value 1: camera name (camGame,camHUD,camOther) and hex color
+(Must be separated by a space)
+value 2: Duration (in steps)

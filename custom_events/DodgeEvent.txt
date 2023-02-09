@@ -1,0 +1,3 @@
+When it starts you have (value1)
+steps to press SPACE
+if not, then reduce (value2) HP

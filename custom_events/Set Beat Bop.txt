@@ -1,0 +1,3 @@
+Makes a custom cam bop
+value 1: 1 = ON, 0 = OFF
+value 2: Number of beats between each bop
