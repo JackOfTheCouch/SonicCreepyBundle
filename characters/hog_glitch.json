@@ -94,8 +94,8 @@
 	"no_antialiasing": false,
 	"image": "characters/hog/Hog_Glitch",
 	"position": [
-		90,
-		320
+		30,
+		270
 	],
 	"healthicon": "hog",
 	"flip_x": false,
@@ -105,8 +105,8 @@
 		176
 	],
 	"camera_position": [
-		-410,
-		-200
+		-150,
+		30
 	],
 	"sing_duration": 6.1,
 	"scale": 1.4
