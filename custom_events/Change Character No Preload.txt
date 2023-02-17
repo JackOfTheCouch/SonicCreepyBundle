@@ -1,0 +1,4 @@
+Change Character Event but without preloading
+
+Value 1: Character to change (dad,bf,gf)
+Value 2: New character's name

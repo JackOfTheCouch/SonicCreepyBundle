@@ -53,13 +53,13 @@ function onStepHit()
 		doTweenX('targetX','target.scale',2.5,(stepCrochet/1000)*4,'bounceOut')
 		doTweenY('targetY','target.scale',2.5,(stepCrochet/1000)*4,'bounceOut')
 	end
-	if curStep == 1275 then addAnimationByPrefix('target','lock','lock',60,false) end
-	if curStep == 1277 then 
+	if curStep == 1276 then addAnimationByPrefix('target','lock','lock',60,false) end
+	if curStep == 1280 then
 		doTweenX('targetX','target.scale',7.5,(stepCrochet/1000)*2,'bounceIn')
 		doTweenY('targetY','target.scale',7.5,(stepCrochet/1000)*2,'bounceIn')
 		doTweenAlpha('targetA','target',0,(stepCrochet/1000)*2,'linear')
 	end
-	if curStep == 1280 then 
+	if curStep == 1281 then
 		doTweenX('warningX','warning.scale',7.5,(stepCrochet/1000)*2,'bounceIn')
 		doTweenY('warningY','warning.scale',7.5,(stepCrochet/1000)*2,'bounceIn')
 		doTweenAlpha('warningA','warning',0,(stepCrochet/1000)*2,'linear')

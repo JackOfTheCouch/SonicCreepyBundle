@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-40,
+				10
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SSBF DOWN instance ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-44,
+				28
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SSBF UP instance ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-46,
+				16
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SSBF RIGHT instance ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-27,
+				21
+			],
+			"anim": "singLEFTMISS",
+			"fps": 24,
+			"name": "SSBF LEFTmiss instance ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-47,
+				27
+			],
+			"anim": "singUPMISS",
+			"fps": 24,
+			"name": "SSBF UPmiss instance ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				35
+			],
+			"anim": "singDOWNMISS",
+			"fps": 24,
+			"name": "SSBF DOWNmiss instance ",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-37,
+				31
+			],
+			"anim": "singRIGHTMISS",
+			"fps": 24,
+			"name": "SSBF RIGHTmiss instance ",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-24,
+				18
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "SSBF LEFTmiss instance "
+		},
+		{
+			"offsets": [
+				-32,
+				36
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "SSBF DOWNmiss instance "
+		},
+		{
+			"offsets": [
+				-46,
+				27
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "SSBF UPmiss instance "
+		},
+		{
+			"offsets": [
+				-43,
+				31
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "SSBF RIGHTmiss instance "
+		},
+		{
+			"offsets": [
+				-19,
+				29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "SSBF LEFT instance "
+		},
+		{
+			"offsets": [
+				-43,
+				20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "SSBF IDLE instance "
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/xterion/SSBF_Assets_lowres",
+	"position": [
+		0,
+		400
+	],
+	"healthicon": "SSBF",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		156,
+		209
+	],
+	"camera_position": [
+		0,
+		-160
+	],
+	"sing_duration": 4,
+	"scale": 2
+}

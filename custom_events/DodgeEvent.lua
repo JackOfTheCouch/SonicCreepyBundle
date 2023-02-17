@@ -16,6 +16,7 @@ function onUpdate()
 		dodged = true
 		--debugPrint('DODGED')
 		triggerEvent('Play Animation','dodge','Boyfriend')
+		setProperty('boyfriend.specialAnim', true)
 	end
 end
 
@@ -24,6 +25,7 @@ function onTimerCompleted(tag, loops, loopsLeft)
 		if not dodged then
 			--debugPrint('iDIOT')
 			triggerEvent('Play Animation','hurt','Boyfriend')
+			setProperty('boyfriend.specialAnim', true)
 			addHealth(-1*healthLoss)
 		else
 			--debugPrint('YOU DID IT BASTARD')

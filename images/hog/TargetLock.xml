@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <TextureAtlas imagePath="TargetLock.png">
+<SubTexture name="idle0000" x="0" y="0" width="285" height="307" frameX="0" frameY="0" frameWidth="285" frameHeight="307" />
 <SubTexture name="lock0000" x="0" y="0" width="285" height="307" frameX="0" frameY="0" frameWidth="285" frameHeight="307" />
 <SubTexture name="lock0001" x="0" y="0" width="285" height="307" frameX="0" frameY="0" frameWidth="285" frameHeight="307" />
 <SubTexture name="lock0002" x="0" y="0" width="285" height="307" frameX="0" frameY="0" frameWidth="285" frameHeight="307" />

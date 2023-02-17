@@ -1,0 +1,9 @@
+value 1: target length (1 second = 1000)
+type "default" to go back to default
+value 2: duration and easing
+(should be like "3.14, expoOut")
+
+with "song length" i mean as in how long
+in ms does the time bar go to 0:00
+idk how to explain but it can be used for
+fake-outs or some shit

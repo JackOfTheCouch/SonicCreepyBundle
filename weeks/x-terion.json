@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"substantial",
+			"terion",
+			[
+				18,
+				0,
+				195
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"difficulties": "Hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "TailsDoll",
+	"weekName": "terion",
+	"freeplayColor": [
+		181,
+		134,
+		5
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
