@@ -17,6 +17,8 @@ For example: Manual Blast could've taken more than 1.4GB of RAM easily but it on
 
 ## Instalation
 
+First of all, download [Psych Engine](https://gamebanana.com/mods/309789)
+
 **IF YOU WANT IT TO AUTOMATICALLY UPDATE**:
 1. Download GitHub Desktop
 2. Do whatever you need to with the tutorial or whatever (or if you can, skip it)
