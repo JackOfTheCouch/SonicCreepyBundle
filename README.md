@@ -44,4 +44,4 @@ If there are issues, make sure to notify me either from here, or from the corres
 
 Have fun!
 
-Special thanks to the Psych Engine Discord server...y un saludo a la grasa, y a los del Funkianexo <3
+***Special thanks to the Psych Engine Discord server...y un saludo a la grasa, y a los del Funkianexo <3***
