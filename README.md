@@ -43,3 +43,5 @@ Well, since this is completely a for-fun project, it may or may not take a while
 If there are issues, make sure to notify me either from here, or from the corresponging video in my [YouTube channel](https://www.youtube.com/channel/UCYFaFqDCd6TaKpSbYDDaH5A)
 
 Have fun!
+
+Special thanks to the Psych Engine Discord server...y un saludo a la grasa, y a los del Funkianexo <3
