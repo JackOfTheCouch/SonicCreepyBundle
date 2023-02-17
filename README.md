@@ -35,3 +35,9 @@ Well, since this is completely a for-fun project, it may or may not take a while
 - [ ] Re-add and optimize more the ones left in my [YouTube channel](https://www.youtube.com/channel/UCYFaFqDCd6TaKpSbYDDaH5A)
 - [ ] More new songs! (duh)
 - [ ] Aaaand, a working custom menu! (Still too lazy to code that in yet)
+
+## Finally...
+
+If there are issues, make sure to notify me either from here, or from the corresponging video in my [YouTube channel](https://www.youtube.com/channel/UCYFaFqDCd6TaKpSbYDDaH5A)
+
+Have fun!
