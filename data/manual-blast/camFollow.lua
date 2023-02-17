@@ -41,3 +41,6 @@ function setCameraMovement(movement, speed)
   m = movement and {{-movement, 0}, {0, movement}, {0, -movement}, {movement, 0}} or m
   velocity = speed or velocity
 end
+function onEvent(n,v1,v2)
+	if n == 'Set Property' and v1 == 'cameraSpeed' then origSpeed = tonumber(v2) end
+end

@@ -23,7 +23,7 @@ function onCreatePost()
 	setProperty('blackBg.alpha',0)
 	addLuaSprite('blackBg')
 	
-	makeAnimatedLuaSprite('staticc','hog/blast/staticc') --Passive static
+	makeAnimatedLuaSprite('staticc','stages/hog/blast/staticc') --Passive static
 	addAnimationByPrefix('staticc','staticc','staticc',24,true)
 	scaleObject('staticc',screenWidth/480,screenHeight/270)
 	setObjectCamera('staticc','hud')
@@ -32,7 +32,7 @@ function onCreatePost()
 	addLuaSprite('staticc')
 	
 	
-	makeLuaSprite('room', 'hog/blast/Screen', 0,0) --Room sprite
+	makeLuaSprite('room', 'stages/hog/blast/Screen', 0,0) --Room sprite
 	setObjectCamera('room','other')
 	scaleObject('room', screenHeight/1025,screenHeight/1025)
 	screenCenter('room','x')

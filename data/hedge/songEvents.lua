@@ -6,7 +6,7 @@ function onCreate()
 	addLuaSprite('blackBg')
 	setProperty('blackBg.alpha',0)
 	
-	makeAnimatedLuaSprite('target','hog/TargetLock',defaultBoyfriendX-150,defaultBoyfriendY+150)
+	makeAnimatedLuaSprite('target','stages/hog/TargetLock',defaultBoyfriendX-150,defaultBoyfriendY+150)
 	scaleObject('target',2.5,2.5)
 	setProperty('target.visible',false)
 	doTweenX('targetX','target.scale',0,1,'linear')

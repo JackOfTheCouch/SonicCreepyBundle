@@ -3,7 +3,7 @@ local jumpStep
 function onCreate()
 	addHaxeLibrary('Paths')
 	
-	makeAnimatedLuaSprite('target','hog/TargetLock',defaultBoyfriendX-150,defaultBoyfriendY+150)
+	makeAnimatedLuaSprite('target','stages/hog/TargetLock',defaultBoyfriendX-150,defaultBoyfriendY+150)
 	addAnimationByPrefix('target','idle','idle',60,true)
 	addAnimationByPrefix('target','lock','lock',60,false)
 	scaleObject('target',2.5,2.5)
