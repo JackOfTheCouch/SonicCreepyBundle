@@ -35,8 +35,6 @@ function onCreatePost()
 	setProperty('camGame.zoom',0.8)
 	bfYdef = getProperty('boyfriend.y')
 	dadYdef = getProperty('dad.y')
-	setSpriteShader('sky', 'scroll') 
-	setShaderFloat('sky','xSpeed',0.15)
 end
 function onSongStart()
 end
@@ -65,7 +63,6 @@ function goodNoteHit()
 end
 
 function onUpdate()
-	setShaderFloat('sky','iTime',getSongPosition()/1000)
 end
 
 function onTweenCompleted(tag)

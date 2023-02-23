@@ -1,0 +1,4 @@
+Makes the camera shake
+value 1: camera name (game,hud,other) and intensity
+(Must be separated by a space)
+value 2: Duration (in steps)

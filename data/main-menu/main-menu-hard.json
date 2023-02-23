@@ -1,0 +1,38 @@
+{
+	"song": {
+		"speed": 1,
+		"stage": "mainMenu",
+		"player1": "Empty",
+		"player2": "Empty",
+		"events": [],
+		"notes": [
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 150,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			}
+		],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "Empty",
+		"bpm": 150,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Main menu"
+	}
+}

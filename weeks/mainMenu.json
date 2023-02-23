@@ -1,0 +1,32 @@
+{
+	"songs": [
+		[
+			"main menu",
+			"icon-def",
+			[
+				0,
+				0,
+				0
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "sonic",
+	"difficulties": "Hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "SCB - MAIN MENU",
+	"weekName": "main",
+	"freeplayColor": [
+		0,
+		0,
+		0
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
