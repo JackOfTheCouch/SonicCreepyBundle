@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="lowstat.png">
+<SubTexture name="stat0000" x="0" y="0" width="320" height="180" frameX="0" frameY="0" frameWidth="320" frameHeight="180" />
+<SubTexture name="stat0001" x="0" y="180" width="320" height="180" frameX="0" frameY="0" frameWidth="320" frameHeight="180" />
+<SubTexture name="stat0002" x="0" y="360" width="320" height="180" frameX="0" frameY="0" frameWidth="320" frameHeight="180" />
+</TextureAtlas>

@@ -1,0 +1,2 @@
+Makes the notes go woosh
+v1: duration in steps

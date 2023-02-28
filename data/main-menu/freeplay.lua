@@ -1,6 +1,7 @@
-weekNames = {'fatalerror','xterion','hog','scorched'} --add whatever week you want here (needs to have the frame thingy)
+weekNames = {'fatalerror','needlemouse','xterion','hog','scorched'} --add whatever week you want here (needs to have the frame thingy)
 --ADD THE SONGS OF EACH WEEK
 fatalerror = {'fatality'}
+needlemouse = {'round-a-bout'}
 xterion = {'substantial'}
 hog = {'hedge'}
 scorched = {'manual blast'}
@@ -38,12 +39,12 @@ function onCustomSubstateCreate(name)
 			addLuaSprite(weekNames[i])
 		end
 		makeLuaText('title',string.upper(weekNames[weekSelec]), getProperty('sidebar.width'), getProperty('sidebar.x')+50,30) setObjectCamera('title','other')--ADD TITLE TEXT
-		setTextFont('title', 'sonic-cd-menu-font.ttf') setTextAlignment('title','center') setTextSize('title',50)
+		setTextFont('title', 'sonic-cd-menu-font.otf') setTextAlignment('title','center') setTextSize('title',50)
 		addLuaText('title')
 		for i=1,#_G[weekNames[weekSelec]] do --ADD TEXT CUR FRAME
 			textY = defTY - 30 * (#_G[weekNames[weekSelec]] - 1)
 			makeLuaText('song'..i,string.lower(_G[weekNames[weekSelec]][i]), getProperty('sidebar.width'), getProperty('sidebar.x')+50,textY+addTextY) setObjectCamera('song'..i,'other')
-			setTextFont('song'..i, 'sonic-cd-menu-font.ttf') setTextAlignment('song'..i,'center') setTextSize('song'..i,40) setTextColor('song'..i, '000000') setTextBorder('song'..i,2.5,'FFFFFF')
+			setTextFont('song'..i, 'sonic-cd-menu-font.otf') setTextAlignment('song'..i,'center') setTextSize('song'..i,40) setTextColor('song'..i, '000000') setTextBorder('song'..i,2.5,'FFFFFF')
 			addLuaText('song'..i)
 			addTextY = addTextY + 60
 			for i=#_G[weekNames[weekSelec]] + 1, 10 do removeLuaText('song'..i) end
@@ -100,7 +101,7 @@ function onCustomSubstateUpdatePost(name)
 				for i=1,#_G[weekNames[weekSelec]] do --ADD TEXT CUR FRAME
 					textY = defTY - 30 * (#_G[weekNames[weekSelec]] - 1)
 					makeLuaText('song'..i,string.lower(_G[weekNames[weekSelec]][i]), getProperty('sidebar.width'), getProperty('sidebar.x')+50,textY+addTextY) setObjectCamera('song'..i,'other')
-					setTextFont('song'..i, 'sonic-cd-menu-font.ttf') setTextAlignment('song'..i,'center') setTextSize('song'..i,40) setTextColor('song'..i, '000000') setTextBorder('song'..i,2.5,'FFFFFF')
+					setTextFont('song'..i, 'sonic-cd-menu-font.otf') setTextAlignment('song'..i,'center') setTextSize('song'..i,40) setTextColor('song'..i, '000000') setTextBorder('song'..i,2.5,'FFFFFF')
 					addLuaText('song'..i)
 					addTextY = addTextY + 60
 					for i=#_G[weekNames[weekSelec]] + 1, 10 do removeLuaText('song'..i) end --REMOVE USELESS TEXT
@@ -112,7 +113,9 @@ function onCustomSubstateUpdatePost(name)
 		if curSub == 'songs' then --SONGS MENU
 			for i=1,10 do setTextColor('song'..i, '000000') setTextBorder('song'..i,2.5,'FFFFFF') end
 			setTextColor('song'..songSelec, 'FFFFFF') setTextBorder('song'..songSelec,0,'000000')
-			if keyboardJustPressed('ENTER') and canPlay then loadSong(_G[weekNames[weekSelec]][songSelec],0) close() end
+			if keyboardJustPressed('ENTER') and canPlay then 
+				loadSong(_G[weekNames[weekSelec]][songSelec],0) close() 
+			end
 		end
 	end
 end

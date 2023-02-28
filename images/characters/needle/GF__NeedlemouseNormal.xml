@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="GF__NeedlemouseNormal.png">
+<SubTexture name="GF_Normal0000" x="0" y="577" width="354" height="566" frameX="-83" frameY="-11" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0001" x="0" y="577" width="354" height="566" frameX="-83" frameY="-11" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0002" x="354" y="577" width="382" height="565" frameX="-55" frameY="-12" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0003" x="354" y="577" width="382" height="565" frameX="-55" frameY="-12" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0004" x="736" y="577" width="454" height="564" frameX="-10" frameY="-13" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0005" x="736" y="577" width="454" height="564" frameX="-10" frameY="-13" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0006" x="1501" y="0" width="431" height="564" frameX="-5" frameY="-13" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0007" x="1501" y="0" width="431" height="564" frameX="-5" frameY="-13" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0008" x="1078" y="0" width="423" height="570" frameX="-13" frameY="-7" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0009" x="1078" y="0" width="423" height="570" frameX="-13" frameY="-7" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0010" x="695" y="0" width="383" height="571" frameX="-53" frameY="-6" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0011" x="695" y="0" width="383" height="571" frameX="-53" frameY="-6" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0012" x="0" y="0" width="354" height="577" frameX="-83" frameY="0" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0013" x="0" y="0" width="354" height="577" frameX="-83" frameY="0" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0014" x="354" y="0" width="341" height="573" frameX="-96" frameY="-4" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0015" x="354" y="0" width="341" height="573" frameX="-96" frameY="-4" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0016" x="338" y="1143" width="316" height="560" frameX="-137" frameY="-17" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0017" x="338" y="1143" width="316" height="560" frameX="-137" frameY="-17" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0018" x="654" y="1143" width="312" height="559" frameX="-151" frameY="-19" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0019" x="654" y="1143" width="312" height="559" frameX="-151" frameY="-19" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0020" x="1501" y="564" width="318" height="562" frameX="-134" frameY="-15" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0021" x="1501" y="564" width="318" height="562" frameX="-134" frameY="-15" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0022" x="0" y="1143" width="338" height="562" frameX="-99" frameY="-15" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0023" x="0" y="1143" width="338" height="562" frameX="-99" frameY="-15" frameWidth="446" frameHeight="562" />
+<SubTexture name="GF_Normal0024" x="0" y="577" width="354" height="566" frameX="-83" frameY="-11" frameWidth="446" frameHeight="562" />
+</TextureAtlas>

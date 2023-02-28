@@ -1,0 +1,5 @@
+Changes the camera zoom smoothly
+v1: new zoom value
+v2: duration(in steps) and ease
+(Leaving a space, for example:
+2 sineInOut)

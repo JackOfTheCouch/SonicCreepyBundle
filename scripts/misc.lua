@@ -12,6 +12,15 @@ function onSongStart()
 	Paths.clearUnusedMemory();
 	]])
 end
+
+function onEvent(n,v1,v2)
+	if n == 'Change Character' then
+		runHaxeCode([[
+		Paths.clearUnusedMemory();
+		]])
+	end
+end
+
 function onEndSong()
 	endingTime = true
 end

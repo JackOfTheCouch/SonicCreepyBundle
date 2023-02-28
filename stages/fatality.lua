@@ -9,6 +9,8 @@ function onCreate()
 		makeLuaSprite('crtGame')
 		makeGraphic('crtGame', screenWidth, screenHeight)
 		setSpriteShader('crtGame', 'fastCRT')
+		setShaderFloat('crtGame','shift',1.0 / 480.0)
+		setShaderBool('crtGame','scanlines',true)
 		
 		runHaxeCode([[
 			game.camGame.setFilters([new ShaderFilter(game.getLuaObject("crtGame").shader)]);

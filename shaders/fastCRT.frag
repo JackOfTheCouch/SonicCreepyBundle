@@ -7,6 +7,8 @@ vec2 iResolution = openfl_TextureSize;
 #define fragColor gl_FragColor
 #define mainImage main
 
+uniform float shift; //chromatic aberration
+uniform bool scanlines; //scanlines
 void mainImage()
 {
     vec2 uv = fragCoord/iResolution.xy;
@@ -17,10 +19,12 @@ void mainImage()
     // vignette
     float bri = 0.9 + (1.6 * uv.x * uv.y) * (1.0 - uv.x) * (1.0 - uv.y);
     // scanlines in darker areas
-    bri *= 0.93 + 0.07 * lum + (abs(fract(uv.y * 90.0) - 0.5) - 0.25) * 0.28 * (1.0 - lum);
-
+    if (scanlines == true)
+	{
+		bri *= 0.93 + 0.07 * lum + (abs(fract(uv.y * 90.0) - 0.5) - 0.25) * 0.28 * (1.0 - lum);
+	}
+	
     // chromatic aberration 
-    float shift = 1.0 / 480.0;
     col.x = bri * texture(iChannel0, vec2(uv.x + shift, uv.y)).x;
     col.y = bri * col.y;
     col.z = bri * texture(iChannel0, vec2(uv.x - shift, uv.y)).z;
